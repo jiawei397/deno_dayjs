@@ -12,7 +12,7 @@ More info or API to see [this way](https://deno.land/x/dayjs).
 ## example
 
 ```ts
-import dayjs from "https://deno.land/x/deno_dayjs@v0.0.0/mod.ts";
+import dayjs from "https://deno.land/x/deno_dayjs@v0.0.1/mod.ts";
 
 const day = dayjs().format("YYYY-MM-DD HH:mm:ss");
 console.log(day);
