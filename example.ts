@@ -1,4 +1,8 @@
 import dayjs from "./mod.ts";
+// use plugin
+import { weekOfYear } from "./plugins/weekOfYear.ts";
+dayjs.extend(weekOfYear);
+
 const day = dayjs().format("YYYY-MM-DD HH:mm:ss");
 console.log(day);
 
@@ -6,10 +10,6 @@ console.log(dayjs().startOf("date").toDate());
 console.log(dayjs().startOf("date").format("YYYY-MM-DD HH:mm:ss"));
 console.log(dayjs().endOf("date").format("YYYY-MM-DD HH:mm:ss"));
 console.log(dayjs("20211027").endOf("date").format("YYYY-MM-DD HH:mm:ss"));
-
-// use plugin
-import { weekOfYear } from "./plugins/weekOfYear.ts";
-dayjs.extend(weekOfYear);
 
 /**
  * 根据日期，获取这年的周数
