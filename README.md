@@ -12,7 +12,7 @@ More info or API to see [this way](https://deno.land/x/dayjs).
 ## example
 
 ```ts
-import dayjs from "https://deno.land/x/deno_dayjs@v0.0.2/mod.ts";
+import dayjs from "https://deno.land/x/deno_dayjs@v0.0.3/mod.ts";
 
 const day = dayjs().format("YYYY-MM-DD HH:mm:ss");
 console.log(day);
@@ -26,8 +26,8 @@ console.log(dayjs("20211027").endOf("date").format("YYYY-MM-DD HH:mm:ss"));
 use plugin, but now just one `weekOfYear` which is my need.
 
 ```ts
-import dayjs from "https://deno.land/x/deno_dayjs@v0.0.2/mod.ts";
-import { weekOfYear } from "https://deno.land/x/deno_dayjs@v0.0.2/plugin/weekOfYear.ts";
+import dayjs from "https://deno.land/x/deno_dayjs@v0.0.3/mod.ts";
+import { weekOfYear } from "https://deno.land/x/deno_dayjs@v0.0.3/plugin/weekOfYear.ts";
 dayjs.extend(weekOfYear);
 
 const date = dayjs(day);
