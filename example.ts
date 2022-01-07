@@ -1,6 +1,6 @@
 import dayjs from "./mod.ts";
 // use plugin
-import { weekOfYear } from "./plugins/weekOfYear.ts";
+import { weekOfYear } from "./plugin/weekOfYear.ts";
 dayjs.extend(weekOfYear);
 
 const day = dayjs().format("YYYY-MM-DD HH:mm:ss");
