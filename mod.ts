@@ -1,4 +1,4 @@
 // @deno-types="./index.d.ts"
-import dayjs from "https://cdn.skypack.dev/pin/dayjs@v1.11.0-Ea3wQFUgDJosOLjvHoCa/mode=imports/optimized/dayjs.js";
+import dayjs from "https://esm.sh/dayjs@1.11.3";
 
 export default dayjs;

@@ -1,6 +1,6 @@
 # deno_dayjs
 
-Provides `dayjs 1.10.7` for Deno.
+Provides `dayjs 1.11.3` for Deno.
 
 Day.js is a minimalist JavaScript library that parses, validates, manipulates,
 and displays dates and times for modern browsers with a largely
@@ -34,5 +34,5 @@ const date = dayjs(day);
 console.log(date.year() + "-" + date.week());
 ```
 
-You can also get the pin URL from cdn yourself like:
-`https://cdn.skypack.dev/dayjs@v1.10.7/esm/plugin/weekOfYear/index.js`.
+You can also get the URL from cdn yourself like:
+`https://esm.sh/dayjs@1.11.3/plugin/weekOfYear`.
