@@ -1,6 +1,6 @@
 # deno_dayjs
 
-Provides `dayjs 1.11.3` for Deno.
+Provides `dayjs 1.11.5` for Deno.
 
 Day.js is a minimalist JavaScript library that parses, validates, manipulates,
 and displays dates and times for modern browsers with a largely
