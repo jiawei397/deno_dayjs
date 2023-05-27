@@ -1,7 +1,7 @@
 import dayjs from "./mod.ts";
 // use plugin
-import { weekOfYear } from "./plugin/weekOfYear.ts";
-dayjs.extend(weekOfYear);
+import weekOfYear from "./plugin/weekOfYear.ts";
+import relativeTime from "./plugin/relativeTime.ts";
 
 const day = dayjs().format("YYYY-MM-DD HH:mm:ss");
 console.log(day);
@@ -19,6 +19,21 @@ export function getYearAndWeek(day: string | Date) {
   const date = dayjs(day);
   return date.year() + "-" + date.week();
 }
+dayjs.extend(weekOfYear);
 
 console.log(getYearAndWeek("2021-11-24"));
 console.log(getYearAndWeek(new Date()));
+
+dayjs.extend(relativeTime);
+{
+  const results = {
+    from: dayjs().from(dayjs("1990-01-01")), // in 31 years
+    fromTrue: dayjs().from(dayjs("1990-01-01"), true), // 31 years
+    fromNow: dayjs().fromNow(),
+
+    to: dayjs().to(dayjs("1990-01-01")), // "31 years ago"
+    toNow: dayjs().toNow(),
+  };
+
+  console.table(results);
+}
