@@ -27,11 +27,11 @@ console.log(getYearAndWeek(new Date()));
 dayjs.extend(relativeTime);
 {
   const results = {
-    from: dayjs().from(dayjs("1990-01-01")), // in 31 years
-    fromTrue: dayjs().from(dayjs("1990-01-01"), true), // 31 years
+    from: dayjs().from(dayjs("1990-01-01")), // in 33 years
+    fromTrue: dayjs().from(dayjs("1990-01-01"), true), // 33 years
     fromNow: dayjs().fromNow(),
 
-    to: dayjs().to(dayjs("1990-01-01")), // "31 years ago"
+    to: dayjs().to(dayjs("1990-01-01")), // "33 years ago"
     toNow: dayjs().toNow(),
   };
 
