@@ -10,7 +10,7 @@ More info or API [here](https://deno.land/x/dayjs).
 ## Example
 
 ```ts
-import dayjs from "https://deno.land/x/deno_dayjs@v0.2.2/mod.ts";
+import dayjs from "https://deno.land/x/deno_dayjs@v0.3.0/mod.ts";
 
 const day = dayjs().format("YYYY-MM-DD HH:mm:ss");
 console.log(day);
@@ -28,8 +28,8 @@ console.log(dayjs("20211027").endOf("date").format("YYYY-MM-DD HH:mm:ss"));
 ## Week of year
 
 ```ts
-import dayjs from "https://deno.land/x/deno_dayjs@v0.2.2/mod.ts";
-import weekOfYear from "https://deno.land/x/deno_dayjs@v0.2.2/plugin/weekOfYear.ts";
+import dayjs from "https://deno.land/x/deno_dayjs@v0.3.0/mod.ts";
+import weekOfYear from "https://deno.land/x/deno_dayjs@v0.3.0/plugin/weekOfYear.ts";
 dayjs.extend(weekOfYear);
 
 const date = dayjs(day);
@@ -39,8 +39,8 @@ console.log(date.year() + "-" + date.week());
 ## Relative Time
 
 ```ts
-import dayjs from "https://deno.land/x/deno_dayjs@v0.2.2/mod.ts";
-import relativeTime from "https://deno.land/x/deno_dayjs@v0.2.2/plugin/relativeTime.ts";
+import dayjs from "https://deno.land/x/deno_dayjs@v0.3.0/mod.ts";
+import relativeTime from "https://deno.land/x/deno_dayjs@v0.3.0/plugin/relativeTime.ts";
 dayjs.extend(relativeTime);
 
 dayjs().from(dayjs("1990-01-01")); // in 33 years
