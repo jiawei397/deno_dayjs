@@ -1,0 +1,7 @@
+{
+  "version": "0.2.2",
+  "name": "deno_dayjs",
+  "tasks": {
+    "dev": "deno run --check --watch example.ts"
+  }
+}

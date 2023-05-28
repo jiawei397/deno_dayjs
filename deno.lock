@@ -1,0 +1,8 @@
+{
+  "version": "2",
+  "remote": {
+    "https://esm.sh/v85/dayjs@1.11.3/es2022/plugin/relativeTime.js": "0bcbed3fb9ea5c86e0a9a7b070aa20d06ddc6a0cd1d4dca9e37f72a9b0662f1a",
+    "https://esm.sh/v85/dayjs@1.11.3/es2022/plugin/weekOfYear.js": "433257ede12fa9c2ed046c2364fb460742a15219606bd5e30828680a3804d8f7",
+    "https://esm.sh/v96/dayjs@1.11.5/es2022/dayjs.js": "f74890f67c30d4768b652c95fb42ffed869ce2fb41c813347aa178490e136785"
+  }
+}
