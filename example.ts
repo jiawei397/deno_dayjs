@@ -50,8 +50,8 @@ dayjs.extend(utc);
 {
   console.group("utc");
   const results = {
-    utc: dayjs().utc().get("hour"),
-    local: dayjs().get("hour"),
+    utc: dayjs().utc().hour(),
+    local: dayjs().hour(),
   };
   console.table(results);
   console.groupEnd();
