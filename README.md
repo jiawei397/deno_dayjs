@@ -2,8 +2,10 @@
 
 Provides `dayjs 1.11.5` for Deno.
 
-Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and times for
-modern browsers with a largely Moment.js-compatible API. If you use Moment.js, you already know how to use Day.js.
+Day.js is a minimalist JavaScript library that parses, validates, manipulates,
+and displays dates and times for modern browsers with a largely
+Moment.js-compatible API. If you use Moment.js, you already know how to use
+Day.js.
 
 More info or API [here](https://deno.land/x/dayjs).
 
@@ -23,7 +25,8 @@ console.log(dayjs("20211027").endOf("date").format("YYYY-MM-DD HH:mm:ss"));
 
 # Plugins
 
-> You can also get the URL from cdn yourself like: `https://esm.sh/dayjs@1.11.3/plugin/<pluginName>`.
+> You can also get the URL from cdn yourself like:
+> `https://esm.sh/dayjs@1.11.5/plugin/<pluginName>`.
 
 ## Week of year
 
