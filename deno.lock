@@ -1,9 +1,9 @@
 {
   "version": "2",
   "remote": {
-    "https://esm.sh/v85/dayjs@1.11.3/es2022/plugin/relativeTime.js": "0bcbed3fb9ea5c86e0a9a7b070aa20d06ddc6a0cd1d4dca9e37f72a9b0662f1a",
-    "https://esm.sh/v85/dayjs@1.11.3/es2022/plugin/utc.js": "d02abbc6b668d8eaa31c0b047db9c9ee0e82b90adf699c533759ae0bd312558a",
-    "https://esm.sh/v85/dayjs@1.11.3/es2022/plugin/weekOfYear.js": "433257ede12fa9c2ed046c2364fb460742a15219606bd5e30828680a3804d8f7",
-    "https://esm.sh/v96/dayjs@1.11.5/es2022/dayjs.js": "f74890f67c30d4768b652c95fb42ffed869ce2fb41c813347aa178490e136785"
+    "https://esm.sh/v85/dayjs@1.11.5/es2022/plugin/relativeTime.js": "10d768091b2927c0cf4f93df33ca80de40e454b270a4fd336d1b40e475273f04",
+    "https://esm.sh/v85/dayjs@1.11.5/es2022/plugin/utc.js": "045ed871ed7594da98e16db269cd1fa7c4d09854ac05714052dc29df29686d83",
+    "https://esm.sh/v85/dayjs@1.11.5/es2022/plugin/weekOfYear.js": "e98c0be360bb045a602be2d90da1364f25ac18bd795142a7865f30c4186c54a4",
+    "https://esm.sh/v96/dayjs@1.11.5/es2022/dayjs.mjs": "62c5c11c07adf3d55398171043b6691559df07a1c406064f9ea1c8877bbeb643"
   }
 }
